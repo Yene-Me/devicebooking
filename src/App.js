@@ -12,7 +12,7 @@ class App extends Component {
 
     constructor() {
         super();
-        this.state = {title: "VF", devices: ""};
+        this.state = {title: "VF Device", devices: ""};
         this._fireBase = fireBase.initializeApp(config.CONFIG);
         injectTapEventPlugin();
     }
